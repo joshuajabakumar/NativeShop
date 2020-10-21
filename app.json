@@ -23,6 +23,12 @@
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
+    },
+    "android": {
+      "package": "com.klosmicstore.myapp",
+      "versionCode": 1,
+      "permissions": [],
+      "icon": "./assets/images/icon.png"
     }
   }
 }

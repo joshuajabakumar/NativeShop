@@ -1,17 +1,29 @@
 export type RootStackParamList = {
   Root: undefined;
   NotFound: undefined;
+  Drawer: undefined;
+  ShopifyGQL: undefined;
 };
 
 export type BottomTabParamList = {
-  TabOne: undefined;
-  TabTwo: undefined;
+  Home: undefined;
+  Collections: undefined;
+  Cart: undefined;
 };
 
-export type TabOneParamList = {
-  TabOneScreen: undefined;
+export type HomeParamList = {
+  HomeScreen: undefined;
 };
 
-export type TabTwoParamList = {
-  TabTwoScreen: undefined;
+export type CollectionsParamList = {
+  CollectionsScreen: undefined;
+  ProductListScreen: undefined;
 };
+
+export type CartParamList = {
+  CartScreen: undefined;
+}
+
+export type ProductParamList = {
+  ProductScreen: undefined;
+}
